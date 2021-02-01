@@ -1,7 +1,9 @@
 header:
-  - title:      GitHub
-    url:        https://github.com/alltimeno1
-
+  - title: GitHub
+    url: https://github.com/alltimeno1
+  - title: Posts
+    url: /archive.html
+    
 sidebar:
   nav: docs-ko
 
