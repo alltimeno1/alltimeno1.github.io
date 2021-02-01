@@ -1,4 +1,19 @@
 header:
+  - title:      Docs
+    url:        /docs/en/quick-start
+  - title:      문서
+    url:        /docs/ko/quick-start
+  - titles:
+      en:       Archive
+      ko:       아카이브
+    url:        /archive.html
+  - titles:
+      en:       About
+      ko:       대하여
+    url:        /about.html
+  - title:      GitHub
+    url:        https://github.com/alltimeno1/alltimeno1.github.io
+    
   - titles:
       # @start locale config
       en      : &EN       Archive
