@@ -6,7 +6,7 @@ docs-ko:
   - title:      잡담
     children:
       - title:  Quick Start
-        url:    /docs/ko/quick-start
+        url:    /2021/02/02/hello.html
       - title:  Structure
         url:    /docs/ko/structure/
       ...
