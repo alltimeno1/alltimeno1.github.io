@@ -8,7 +8,7 @@ docs-ko:
       - title:  Quick Start
         url:    /docs/ko/quick-start
       - title:  Structure
-        url:    /docs/ko/structure
+        url:    /docs/ko/structure/
       ...
   - title:      프로젝트
     children:
@@ -16,6 +16,6 @@ docs-ko:
         url:    /docs/ko/deeplearning
       - title:  머신러닝
         url:    /docs/ko/machinelearning
-
+      ...
 sidebar:
   nav: docs-ko
