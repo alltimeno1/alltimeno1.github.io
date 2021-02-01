@@ -1,65 +1,25 @@
 header:
-  - title:      Docs
-    url:        /docs/en/quick-start
-  - title:      문서
-    url:        /docs/ko/quick-start
-  - titles:
-      en:       Archive
-      ko:       아카이브
-    url:        /archive.html
   - titles:
       en:       About
       ko:       대하여
     url:        /about.html
   - title:      GitHub
-    url:        https://github.com/alltimeno1/alltimeno1.github.io
-    
-  - titles:
-      # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /archive.html
+    url:        https://github.com/alltimeno1
 
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /about.html
+docs-ko:
+  - title:      잡담
+    children:
+      - title:  Quick Start
+        url:    /docs/ko/quick-start
+      - title:  Structure
+        url:    /docs/ko/structure
+      ...
+  - title:      프로젝트
+    children:
+      - title:  딥러닝
+        url:    /docs/ko/deeplearning
+      - title:  머신러닝
+        url:    /docs/ko/machinelearning
+
+sidebar:
+  nav: docs-en
