@@ -11,15 +11,13 @@ docs-ko:
   - title:      잡담
     children:
       - title:  Quick Start
-        url:    /2021/02/02/hello.html
-      - title:  Structure
-        url:    /docs/ko/structure/
-      ...
+        url:    2021/02/02/hello.html
+
   - title:      프로젝트
     children:
       - title:  딥러닝
         url:    /docs/ko/deeplearning
       - title:  머신러닝
         url:    /docs/ko/machinelearning
-      ...
+
 
