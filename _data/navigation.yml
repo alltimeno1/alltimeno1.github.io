@@ -1,8 +1,4 @@
 header:
-  - titles:
-      en:       About
-      ko:       대하여
-    url:        /about.html
   - title:      GitHub
     url:        https://github.com/alltimeno1
 
@@ -22,4 +18,4 @@ docs-ko:
         url:    /docs/ko/machinelearning
 
 sidebar:
-  nav: docs-en
+  nav: docs-ko
