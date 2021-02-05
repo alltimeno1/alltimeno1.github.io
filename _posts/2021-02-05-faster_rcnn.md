@@ -57,8 +57,9 @@ Fast R-CNN에서는 Region Proposal과 Feature Extraction 과정을 image level�
 Fast R-CNN에서는 CNN 외부의 알고리즘을 통해 수행했던 Region Proposal을 Faster R-CNN에서는 CNN 내부에 Region Proposal Network를 통해 수행하여 정확도와 속도가 향상됨
 
 <br>
+<br>
 
-Faster R- CNN은 YOLO나 MobileNet보다 속도는 느리지만 정확도 면에서는 뛰어난 모델이다.
-
-영상이 아닌 이미지 작업을 하고 있고 MobileNet을 사용할 환경도 아니고 최초 모델링은 Faster R-CNN으로 진행하는 중
+프로젝트로 돌아가서..
+- Faster R- CNN은 YOLO나 MobileNet보다는 속도가 느리지만 정확도 면에서는 뛰어난 모델이다.
+- 영상이 아닌 이미지 작업을 하고 있고 MobileNet을 사용할 환경도 아니고 최초 모델링은 Faster R-CNN으로 진행하는 중
 
