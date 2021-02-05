@@ -63,3 +63,4 @@ Fast R-CNN에서는 CNN 외부의 알고리즘을 통해 수행했던 Region Pro
 - Faster R- CNN은 YOLO나 MobileNet보다는 속도가 느리지만 정확도 면에서는 뛰어난 모델이다.
 - 영상이 아닌 이미지 작업을 하고 있고 MobileNet을 사용할 환경도 아니고 최초 모델링은 Faster R-CNN으로 진행하는 중
 
+<br>
