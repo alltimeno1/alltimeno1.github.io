@@ -9,6 +9,7 @@ tags: 머신러닝/딥러닝
 <br>
 
 **R-CNN**
+- CNN과 비슷하지만 Region이라는 개념이 추가된 방식
 
 <img src="https://user-images.githubusercontent.com/71831714/107040802-12879c80-6803-11eb-8d65-cb649c5c20e5.png" width="60%" height="60%">
 
@@ -25,6 +26,7 @@ tags: 머신러닝/딥러닝
 5. Bounding Box Regression
    - region proposal ![P](https://s0.wp.com/latex.php?latex=P&bg=ffffff&fg=000000&s=0&c=20201002) 와 정답 위치 ![G](https://s0.wp.com/latex.php?latex=G&bg=ffffff&fg=000000&s=0&c=20201002)가 존재할 때, ![P](https://s0.wp.com/latex.php?latex=P&bg=ffffff&fg=000000&s=0&c=20201002)를 ![G](https://s0.wp.com/latex.php?latex=G&bg=ffffff&fg=000000&s=0&c=20201002)로 교정한다.
 
+<br>
 <br>
 
 **Fast R-CNN**
@@ -44,6 +46,7 @@ tags: 머신러닝/딥러닝
 Fast R-CNN에서는 Region Proposal과 Feature Extraction 과정을 image level이 아닌 Feature map level에서 수행하여 CNN 연산량을 크게 줄임
 
 <br>
+<br>
 
 **Faster R-CNN**
 
@@ -57,5 +60,5 @@ Fast R-CNN에서는 CNN 외부의 알고리즘을 통해 수행했던 Region Pro
 
 Faster R- CNN은 YOLO나 MobileNet보다 속도는 느리지만 정확도 면에서는 뛰어난 모델이다.
 
-영상이 아닌 이미지 작업을 하고 있고 모바일 환경이 아니기 때문에 최초 모델링은 Faster R-CNN으로 진행해 보았다.
+영상이 아닌 이미지 작업을 하고 있고 MobileNet을 사용할 환경도 아니고 최초 모델링은 Faster R-CNN으로 진행하는 중
 
