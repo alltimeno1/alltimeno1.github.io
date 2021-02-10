@@ -50,7 +50,7 @@ Fast R-CNN에서는 Region Proposal과 Feature Extraction 과정을 image level�
 
 **Faster R-CNN**
 
-<img src="https://user-images.githubusercontent.com/71831714/107048115-eae90200-680b-11eb-8f86-a6aa72f0078e.png" width="25%" height="25%">
+<img src="https://user-images.githubusercontent.com/71831714/107048115-eae90200-680b-11eb-8f86-a6aa72f0078e.png" width="30%" height="30%">
 
 <br>
 
